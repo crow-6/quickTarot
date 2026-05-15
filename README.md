@@ -1,6 +1,7 @@
 # quickTarot
 
-this was made with no AI just vibes, HTML, and royalty free images
+cannot say entirely AI free due to use of stack overflow
+mainly vibes, HTML, and royalty free images
 
 graphic design is my passion
 
