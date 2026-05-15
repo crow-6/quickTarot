@@ -1,0 +1,2 @@
+# quickTarot
+
