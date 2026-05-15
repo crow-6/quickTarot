@@ -1,0 +1,134 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	
+	body {
+		background-size: 100%;
+	}
+	
+	h1{
+		text-align: center;
+		color: rgb(255,255,255);
+		font-size: 5vw
+	}
+	
+	h2{
+		text-align: center;
+		color: rgb(255,255,255);
+		font-size: 4vw
+	}
+	
+	p{
+		color: rgb(255,255,255);
+		font-size: 2vw;
+		text-align: center;
+		font-family: Georgia, serif;
+	}
+	
+	label{
+		color: rgb(255,255,255);
+		font-size: 2vw;
+		text-align: center;
+		vertical-align: middle;
+		font-family: Georgia, serif;
+		padding-right: 1vw;
+	}
+	
+	select{
+		size: 2vw;
+		font-size: 2vw;
+		vertical-align: middle;
+		text-align: center;
+		color: rgb(255,255,255);
+		background-color: rgba(0,0,0,0.3);
+		font-family: Georgia, serif;
+	}
+	
+	legend{
+		color: rgb(255,255,255);
+		font-size: 3vw;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Georgia, serif;
+	}
+	
+	fieldset{
+		background-color: rgba(0,0,0,0.3);
+		display: grid;
+		place-items: center;
+		align-items: center;
+		width: 40vw;
+		height: 20vw;
+		font-family: Georgia, serif;
+	}
+	
+	.button {
+		background-color: rgba(255,255,255,0.3);
+		color: rgb(255,255,255);
+		text-align: center;
+		font-size: 2vw;
+		cursor: pointer; 
+		font-family: Georgia, serif;
+	}
+
+</style>
+
+<body  background = "imgs\casey-horner-RmoWqDCqN2E-unsplash.jpg">
+
+	<br>
+	<br>
+	
+	<div style="display: flex; align-content: center;justify-content: center;">
+		<label> Choose card:  </label>
+		<select name="cards" id="cards">
+			<option value = "random">Random (draw)</option>
+			<option value = "other">Other Options</option>
+		</select>
+	</div>
+	
+	<br>
+	
+	<div style="display: flex; align-content: center;justify-content: center;">
+		<button class="button">Select</button>
+	</div>
+	
+	<br>
+
+	<h2>The Fool</h2>
+	
+	<br>
+	
+	<fieldset  style="margin-left: auto; margin-right: auto; width: 80vw; height: 10vw" >
+		<legend>General</legend>
+		<p> this is the general meaning of this card regardless of upright or reversed</p>
+	
+	</fieldset>
+	
+	<br>
+	
+	<div style="display: flex; align-content: center;justify-content: center;">
+		<fieldset >
+			<legend>Upright</legend>
+			<p>
+				upright meaning<br>
+				upright meaning<br>
+				upright meaning<br>
+			</p>
+		</fieldset>
+		
+		<p style="width:5vw;"></p>
+		
+		<fieldset >
+			<legend>Reversed</legend>
+			<p>
+				reversed meaning <br>
+				reversed meaning <br>
+				reversed meaning <br>
+			</p>
+		</fieldset>
+	</div>
+	
+	<img src="imgs\giftedmg-the-fool-6154764_1920.jpg" alt="picture of the card" style="max-height:60vw; max-width:50%; display: block; margin-left: auto; margin-right: auto; padding-top: 5vw;padding-bottom: 5vw" class="center">
+
+	
+</body>
