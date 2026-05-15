@@ -2,6 +2,8 @@
 
 this was made with no AI just vibes, HTML, and royalty free images
 
+graphic design is my passion
+
 # sites used
 
 w3schools
